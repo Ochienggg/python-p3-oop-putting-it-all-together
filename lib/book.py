@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+
+# lib/book.py
+
 class Book:
     def __init__(self, title, page_count):
         self.title = title
@@ -17,5 +21,6 @@ class Book:
             self._page_count = value
         else:
             print("page_count must be an integer")
+
     
         

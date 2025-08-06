@@ -1,8 +1,12 @@
+#!/usr/bin/env python3
+
+# lib/shoe.py
+
 class Shoe:
     def __init__(self, brand, size):
         self.brand = brand
         self.size = size
-        self.condition = None  
+        self.condition = None  # Optional: initialize condition in __init__
 
     def cobble(self):
         self.condition = "New"
